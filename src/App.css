@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  color: white;
+  font-size: calc(10px + 2vmin);
+}
+
+.post-item {
+  border: 1px solid white;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.post-item:hover {
+  background-color: darkcyan;
+}
