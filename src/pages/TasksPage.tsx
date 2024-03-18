@@ -6,6 +6,7 @@ const Tasks: FC = () => {
     <Pagewrapper>
       <h1>Tasks</h1>
       <ol>
+        <li>Pagination posts!!!</li>
         <li>Work with state (RTK)!!!</li>
         <li>Autorization + private routes</li>
         <li>New routing - free route file + (outlet, nested routes)</li>
@@ -13,6 +14,8 @@ const Tasks: FC = () => {
         <li>Work with formik</li>
         <li>Work with maps</li>
         <li>Work with Tailwind</li>
+        <li>Learn some another architectural patterns</li>
+        <li>Work with GPT, make chat bot in web</li>
         <li>Learn some another architectural patterns</li>
       </ol>
     </Pagewrapper>
