@@ -1,7 +1,76 @@
 .App {
-  text-align: center;
   color: white;
-  font-size: calc(10px + 2vmin);
+  font-size: 26px;
+  /* font-size: calc(10px + 2vmin); */
+}
+
+.layout {
+  display: flex;
+}
+
+.layout-right {
+  width: calc(100% - 300px);
+}
+
+.sidebar {
+  padding: 10px;
+  width: 300px;
+  /* min-width: 300px; */
+  min-height: 100vh;
+  background-color: darkolivegreen;
+}
+
+.header {
+  padding: 14px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid darkolivegreen;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.logo:hover {
+  color: olivedrab;
+  transition: 0.3s;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.link {
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  font-size: 26px;
+  padding: 10px 15px;
+  color: white;
+  background-color: darkolivegreen;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: olivedrab;
+  transition: 0.3s;
+}
+
+.link:hover {
+  color: olivedrab;
+  transition: 0.3s;
+}
+
+/* ---main---  */
+
+.main {
+  padding: 10px;
 }
 
 .post-item {
@@ -13,4 +82,5 @@
 
 .post-item:hover {
   background-color: darkcyan;
+  transition: 0.3s;
 }

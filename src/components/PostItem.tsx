@@ -10,7 +10,7 @@ const PostItem: FC<PostItemProps> = ({ post }) => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate(`/${post.id}`)
+    navigate(`/posts/${post.id}`)
   }
 
   return (
