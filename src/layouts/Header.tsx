@@ -4,20 +4,13 @@ import { useNavigate } from 'react-router-dom';
 const Header = () => {
   const navigate = useNavigate();
 
-  const handleClickMain = () => {
-    navigate(`/`)
-  }
-
-  const handleClickPosts = () => {
-    navigate(`/posts`)
-  }
-
   return (
     <header className='header'>
-      <div className='logo' onClick={handleClickMain}>Logo</div>
+      <div className='logo' onClick={() => navigate('/')}>Logo</div>
       <nav className='links'>
-        <span className='link' onClick={handleClickMain}>Main</span>
-        <span className='link' onClick={handleClickPosts}>Posts</span>
+        <span className='link' onClick={() => navigate('/')}>Main</span>
+        <span className='link' onClick={() => navigate('/posts')}>Posts</span>
+        <span className='link' onClick={() => navigate('/tasks')}>Tasks</span>
         {/* <span>about us</span> */}
       </nav>
       <button>Login</button>
